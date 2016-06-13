@@ -1,11 +1,13 @@
+package com.giri.spark.rnd
+
 import org.apache.spark.sql.SQLContext
-import org.apache.spark.streaming.{Minutes, Seconds, StreamingContext}
+import org.apache.spark.streaming.{Seconds, StreamingContext}
 import org.apache.spark.{SparkConf, SparkContext}
 
 /**
   * Created by vgiridatabricks on 5/26/16.
   */
-object SparkStreamingToESIndex {
+object NetcatSparkStreamingToESIndex {
   def main(args: Array[String]) : Unit = {
 
     // Create a local StreamingContext with two working thread and batch interval of 1 second.

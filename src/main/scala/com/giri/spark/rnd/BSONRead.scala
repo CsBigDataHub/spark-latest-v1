@@ -1,3 +1,11 @@
+package com.giri.spark.rnd
+
+import com.mongodb.hadoop.BSONFileInputFormat
+import org.apache.hadoop.conf.Configuration
+import org.apache.spark.sql.SQLContext
+import org.apache.spark.{SparkConf, SparkContext}
+import org.bson.BSONObject
+
 /**
   * Created by vgiridatabricks on 5/12/16.
   */

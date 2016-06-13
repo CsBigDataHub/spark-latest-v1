@@ -1,3 +1,5 @@
+package com.giri.spark.rnd
+
 import org.apache.spark.sql.Row
 import org.apache.spark.sql.hive.HiveContext
 import org.apache.spark.sql.types.{IntegerType, StructField, StructType}

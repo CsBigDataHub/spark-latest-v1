@@ -1,3 +1,9 @@
+package com.giri.spark.rnd
+
+import org.apache.spark.sql.SQLContext
+import org.apache.spark.sql.types.{StringType, StructField, StructType}
+import org.apache.spark.{SparkConf, SparkContext}
+
 /**
  * Created by Varatharajan Giri Ramanathan on 2/4/2016.
  */

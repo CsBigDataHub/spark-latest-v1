@@ -1,8 +1,10 @@
+package com.giri.spark.rnd
+
 import kafka.serializer.StringDecoder
 import org.apache.spark.sql.SQLContext
-import org.apache.spark.streaming.{Minutes, Seconds, StreamingContext}
 import org.apache.spark.streaming.dstream.DStream
 import org.apache.spark.streaming.kafka.KafkaUtils
+import org.apache.spark.streaming.{Minutes, Seconds, StreamingContext}
 import org.apache.spark.{SparkConf, SparkContext}
 
 

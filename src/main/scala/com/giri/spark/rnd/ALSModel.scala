@@ -1,10 +1,12 @@
+package com.giri.spark.rnd
+
 /**
   * Created by vgiridatabricks on 6/13/16.
   */
 
 import org.apache.spark.mllib.recommendation.{ALS, Rating}
-import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql.SQLContext
+import org.apache.spark.{SparkConf, SparkContext}
 
 
 

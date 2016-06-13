@@ -1,5 +1,7 @@
-import org.apache.spark.{SparkConf, SparkContext}
+package com.giri.spark.rnd
+
 import org.apache.spark.sql.{Row, SQLContext}
+import org.apache.spark.{SparkConf, SparkContext}
 
 /**
   * Created by vgiridatabricks on 5/5/16.
