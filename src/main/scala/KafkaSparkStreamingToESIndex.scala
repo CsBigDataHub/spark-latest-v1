@@ -1,5 +1,3 @@
-package com.giri.kafka.practice
-
 import kafka.serializer.StringDecoder
 import org.apache.spark.sql.SQLContext
 import org.apache.spark.streaming.{Minutes, Seconds, StreamingContext}
@@ -9,7 +7,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 
 
 
-object SparkKafkaWordCount {
+object KafkaSparkStreamingToESIndex {
   def main(args: Array[String]) {
 
     //All Configuration
